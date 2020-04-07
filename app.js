@@ -16,15 +16,16 @@ var stores = {
         for (var i = 0; i < this.hoursOpen.length; i++) {
         this.location[cityIndex].newHoursOpen.push(this.averageRandomNumber(cityIndex));
         } 
-        // return this.location[cityIndex].newHoursOpen;
+        return this.location[cityIndex].newHoursOpen;
         // this.hoursOpen[i]
     },
     cookiesPerHour: function (cityIndex) {
         //    var total = 0; 
         for (var i = 0; i < this.location[cityIndex].newHoursOpen.length; i++) {
            var cookPH = this.location[cityIndex].newHoursOpen[i] * this.location[cityIndex].avgCookieSales;
-            this.location[cityIndex].randomNumberCookiesPerHour.push(cookPH);
-                console.log(cookPH);
+           this.location[cityIndex].randomNumberCookiesPerHour.push(cookPH);
+            // console.log(cookPH);
+            // console.log(cookPH2);
         }
     },
 
@@ -90,15 +91,15 @@ var stores = {
 
 }
 
-for(var i = 0; i < 5; i++) {
-// stores.randomCustomersPerHour(i);
-// stores.cookiesPerHour(i);
-stores.totalCookiesPerDay(i);
-}
-// console.log(stores.location[0]);
-// console.log(stores.averageRandomNumber(0));
-// console.log(stores.location[0].averagePeepsPerHour);
-// console.log(stores.location[0].totalCustomerPerDay);
-// console.log(stores.randomCustomersPerHour(0));
-// console.log(stores.totalCookiesPerDay(0));
+// for (var i = 0; i < 5; i++) {
+//     stores.averageRandomNumber(i);
+//     stores.randomCustomersPerHour(i);
+//     stores.cookiesPerHour(i);
+//     stores.totalCookiesPerDay(i);
+// }
+console.log(stores.averageRandomNumber(0));
+console.log(stores.randomCustomersPerHour(0));
+console.log(stores.location[0].randomNumberCookiesPerHour);
+console.log(stores.totalCookiesPerDay(0));
+
 
