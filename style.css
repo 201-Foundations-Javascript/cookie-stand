@@ -1,0 +1,67 @@
+.header {
+    background-image: url(https://image.shutterstock.com/image-photo/underwater-coral-reef-landscape-super-600w-1323937637.jpg);
+    
+    padding-top: px;
+}
+
+/* body {
+    font-size: 28px;
+  } */
+  
+ul:first-child {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    /* overflow: hidden; */
+    background-color:lightblue;
+    /* position: sticky; */
+    /* top: 0; */
+  }
+  
+/* .li {
+    float: left;
+  } */
+  
+.li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.li a:hover {
+    background-color:lightcoral;
+  } */
+  
+.active {
+    background-color: #4CAF50;
+  }
+
+section {
+    background-image: url(http://www.baltana.com/files/wallpapers-10/Fish-HD-Background-Wallpaper-29767.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    /* width: fit-content; */
+}
+
+h1 {
+    /* display: inline; */
+    width: 10%;
+}
+
+
+
+/* ul {
+    width: 30%;
+} */
+
+li {
+text-align: left;
+/* width: 100%; */
+border-color: teal;
+width: 30%;
+}
