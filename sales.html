@@ -20,6 +20,29 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <form id="franchise">
+            <fieldset>
+                <legend>Start a Franchise</legend>
+                <label for="franchise-name">Franchise Name</label>
+                <input type="text" name="franchise-name">
+                <label for="hours-of-operation">Hours of Operation(list each hour seperately)</label>
+                <input type="number" name="hours-of-operation">
+            </fieldset>
+            <fieldset>
+                <legend>Open a store within your Franchise</legend>
+                <label for="location">Location</label>
+                <input type="text" name="location">
+                <label for="minCust">Projected Mininum Customers per hour</label>
+                <input type="number" name="minCust">
+                <label for="maxCust">Projected Maximum Customers per hour</label>
+                <input type="number" name="maxCust">
+                <br>
+                <label for="avgCookieSales">Projected average cokies sold per customer</label>
+                <input type="number" name="avgCookieSales">
+            </fieldset>
+        </form>
+    </main>
     <section>
         
         <table id="sales-data"></table>
