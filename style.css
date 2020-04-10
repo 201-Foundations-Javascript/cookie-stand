@@ -61,10 +61,37 @@ section {
   height: 1000px;
 }
 
-table, td, th, tr {
-  border: red solid 1px;
-  padding: 10px;
+/* https://www.textfixer.com/tutorials/highlight-table-row.php */
+
+table{
+  width:100%; 
+  overflow: hidden;
 }
+table td{ 
+  padding:7px; border:#4e95f4 1px solid;
+}
+
+table tr:hover {
+  background-color: hotpink;
+}
+
+th:hover{
+  background-color: lawngreen;
+  color: red;
+}
+
+
+tr:hover td {
+  background-color: cadetblue;
+}
+th:hover:first-child td{
+  background-color: red;
+}
+tr:hover th{
+  background-color: burlywood;
+}
+
+
 
 
 
