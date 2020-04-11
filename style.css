@@ -2,6 +2,13 @@
   outline: red dotted 1px;
 } */
 
+body {
+  background-image: url(http://www.baltana.com/files/wallpapers-10/Fish-HD-Background-Wallpaper-29767.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 header {
   margin-top: 0;
   height: 100px;
@@ -52,10 +59,7 @@ div ul {
 }
 
 section {
-  background-image: url(http://www.baltana.com/files/wallpapers-10/Fish-HD-Background-Wallpaper-29767.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+
   color: white;
   width: 1500px;
   height: 1000px;
@@ -90,6 +94,7 @@ th:hover:first-child td{
 tr:hover th{
   background-color: burlywood;
 }
+
 
 
 
