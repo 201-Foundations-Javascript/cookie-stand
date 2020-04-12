@@ -73,6 +73,7 @@ table{
 }
 table td{ 
   padding:7px; border:#4e95f4 1px solid;
+  font-family: 'Exo', sans-serif;
 }
 
 table tr:hover {
@@ -87,6 +88,7 @@ th:hover{
 
 tr:hover td {
   background-color: cadetblue;
+  font-family: 'Parisienne', cursive;
 }
 th:hover:first-child td{
   background-color: red;
@@ -95,10 +97,61 @@ tr:hover th{
   background-color: burlywood;
 }
 
+form {
+  background-color: burlywood;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+main form:first-child {
+  margin-left: 42%;
+}
 
+form input[type=number] {
+  width: 40px;
+}
 
+form input[type=text] {
+  width: 80px;
+}
+label[for=location] {
+  padding-right: 250px;
+}
 
+label[for=minCust] {
+  padding-right: 52px;
+}
 
+label[for=maxCust]{
+  padding-right: 45px;
+}
+label[for=avgCookieSales] {
+  padding-right: 20px;
+}
 
+.button {
+  width: fit-content;
+  height: 40px;
+  background-color: brown; /* Green */
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16;
+  margin-left: 40%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
 
+.button{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
